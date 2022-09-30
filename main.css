@@ -1,0 +1,115 @@
+body, html {
+  /* Positioning */
+  height: 100%;
+}
+
+body {
+  /* Positioning */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  /* Font styling */
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+span{
+  /* Positioning */
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  margin-bottom: 0;
+
+  /* Font styling */
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+ul {
+  /* Positioning */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+li {
+  /* Positioning */
+  margin: 0.5rem;
+
+  /* Font styling */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+  color: black;
+  letter-spacing: 2.5px;
+}
+
+a {
+  /* Anchor styling */
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  /* Fancy hover */
+  border: 1px solid red;
+  border-width: 0 0 5px 0;
+}
+
+main {
+  /* Hero Card Positioning */
+  display: block;
+  background-size: cover;
+  background-position: center;
+  height: 75%;
+  background-image: url(/cpnt260-a3/images/mountains.jpg);
+}
+
+h1{
+  /* Positioning */
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 40ch;
+  padding-top: 2rem;
+
+  /* Font styling */
+  font-size: 100px;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+footer {
+  /* Positioning */
+  font-size: 15px;
+
+  /* Font styling */
+  padding: 0.5rem;
+}
+
+.logo {
+  /* Logo Size */
+  width: 40px;
+  height: 40px;
+}
+
+.pnf {
+  /* Positioning */
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin: 0;
+
+  /* Font styling */
+  font-size: 25px;
+}
+
+.logo_link:hover{
+  /* No fancy hover on image*/
+  border: none;
+}
